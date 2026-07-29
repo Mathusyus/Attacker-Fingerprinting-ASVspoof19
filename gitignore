@@ -1,0 +1,34 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+
+# Environments & Conda
+venv/
+.venv/
+env/
+*.env
+
+# PyTorch Checkpoints & Saved Models
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Data & Datasets (Keep your large audio/image files off GitHub!)
+data/
+raw_data/
+dataset/
+*.wav
+*.mp3
+*.npy
+
+# Logs & Visualizations
+runs/
+*.log
+wandb/
+.tensorboard/
+
+# IDE / OS specific
+.vscode/
+.idea/
+.DS_Store
